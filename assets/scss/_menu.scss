@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: flex-end;
 
-	@media (min-width: $small) {
+	@media (min-width: $small + 1) {
 		flex: 1 0 200px;
 	}
 
@@ -99,7 +99,7 @@ background: linear-gradient(to bottom, #0f8bbe 0%,#2989d8 50%,#207cca 51%,#0eb7f
 	align-items: center;
 	justify-content: center;
 
-	@media (min-width: $large) {
+	@media (min-width: $large + 1) {
 		display: none;
 	}
 

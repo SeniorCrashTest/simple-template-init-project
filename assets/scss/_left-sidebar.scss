@@ -29,7 +29,7 @@
 
 	li {
 			position: relative;
-			padding: $gutter/2;
+			padding: calc($gutter / 2);
 			list-style: none;
 			color: $base-color;
 			font-style: italic;
@@ -46,7 +46,7 @@
 					&::after {
 							position: absolute;
 							right: 0;
-							bottom: -$gutter/3*2;
+							bottom: calc(-1 * $gutter / 3 * 2);
 							left: 0;
 							height: 1px;
 							content: "";

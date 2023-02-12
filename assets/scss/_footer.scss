@@ -57,6 +57,18 @@
 	}
 }
 
+.footer-logo {
+	margin: $gutter;
+
+	@media (min-width: $small + 1) {
+		text-align: right;
+	}
+
+	@media (max-width: $small) {
+		text-align: center;
+	}
+}
+
 .twitter {
 	display: flex;
 	flex: wrap;
@@ -123,5 +135,15 @@
 	@media (min-width: $large + 1) {
 		margin: 57px $gutter $gutter $gutter;
 		text-align: right;
+	}
+
+	@media (max-width: $large) and (min-width: $small + 1) {
+		margin: $gutter*5 $gutter $gutter $gutter;
+		text-align: right;
+	}
+
+	@media (max-width: $small) {
+		margin: $gutter*2 $gutter $gutter $gutter;
+		text-align: center;
 	}
 }

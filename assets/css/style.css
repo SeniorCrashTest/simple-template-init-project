@@ -555,7 +555,7 @@ li {
   color: #efefef;
   border-radius: 15px;
 }
-.menu__list-item::hover:not(.active) a {
+.menu__list-item:hover:not(.active) a {
   background-color: rgba(255, 255, 255, 0.2);
 }
 .menu__list-item.active a {
@@ -883,17 +883,8 @@ li {
 }
 
 @media (min-width: 768px) {
-  .main {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 calc(100% - 300px);
-            flex: 1 0 calc(100% - 300px);
-    padding: 0 20px 15px 15px;
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
-  }
   .carousel-slide__text h3 {
-    margin: 15px;
+    margin: 15px 0;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
@@ -905,6 +896,15 @@ li {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 200px;
             flex: 1 0 200px;
+  }
+  .main {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(100% - 300px);
+            flex: 1 0 calc(100% - 300px);
+    padding: 0 20px 15px 15px;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
   }
   .carousel-slide__text p {
     margin-bottom: 15px;

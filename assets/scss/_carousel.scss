@@ -74,7 +74,7 @@
 		color: #ffffff;
 
 		@media (min-width: $small) {
-			margin: $gutter;
+			margin: $gutter 0;
 			flex-grow: 1;
 		}
 

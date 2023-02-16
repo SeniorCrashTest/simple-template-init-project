@@ -1,16 +1,16 @@
 @import "../../libs/normalize-scss/sass/normalize/import-now";
 
-@import "variables";
-@import "skin";
+@import "_variables";
+@import "_skin";
 
-@import "mixins";
-@import "extends";
+@import "_mixins";
+@import "_extends";
 
-@import "common";
-@import "header";
-@import "menu";
-@import "main";
-@import "carousel";
-@import "left-sidebar";
-@import "bottom-sidebar";
-@import "footer";
+@import "_common";
+@import "_header";
+@import "_menu";
+@import "_main";
+@import "_carousel";
+@import "_left-sidebar";
+@import "_bottom-sidebar";
+@import "_footer";

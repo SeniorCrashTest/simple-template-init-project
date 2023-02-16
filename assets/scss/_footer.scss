@@ -16,7 +16,7 @@
 		}
 	}
 
-	&-right {
+	&-rihgt {
 		@media (max-width: $large) and (min-width: $small + 1) {
 			flex: 0 0 40%;
 		}
@@ -71,7 +71,7 @@
 
 .twitter {
 	display: flex;
-	flex-wrap: wrap;
+	flex: wrap;
 
 	&__image {
 		flex: 0 0 55px;
